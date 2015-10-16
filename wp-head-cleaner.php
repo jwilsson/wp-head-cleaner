@@ -135,6 +135,14 @@ class WP_Head_Cleaner {
                 'priority' => 10,
                 'args' => 0,
             ),
+            array(
+                'title' => __( 'oEmbed', 'wp-head-cleaner' ),
+                'description' => __( 'Don\'t print tags for the oEmbed discover mechanism.', 'wp-head-cleaner' ),
+                'action' => 'wp_oembed_add_discovery_links',
+                'hook' => 'wp_head',
+                'priority' => 10,
+                'args' => 1,
+            ),
         );
     }
 

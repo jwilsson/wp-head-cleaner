@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-10-16 21:45+0200\n"
-"PO-Revision-Date: 2015-10-16 21:46+0200\n"
+"POT-Creation-Date: 2015-10-16 21:47+0200\n"
+"PO-Revision-Date: 2015-10-16 21:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -121,14 +121,22 @@ msgstr "REST API"
 msgid "Don't print REST API endpoint tags."
 msgstr "Skriv inte ut REST API länkar."
 
-#: wp-head-cleaner.php:173
+#: wp-head-cleaner.php:139
+msgid "oEmbed"
+msgstr ""
+
+#: wp-head-cleaner.php:140
+msgid "Don't print tags for the oEmbed discover mechanism."
+msgstr "Skriv inte ut taggar som används av oEmbed."
+
+#: wp-head-cleaner.php:181
 msgid "Options for wp_head() cleaner"
 msgstr "Inställningar för wp_head() cleaner"
 
-#: wp-head-cleaner.php:174
+#: wp-head-cleaner.php:182
 msgid "wp_head() cleaner"
 msgstr "wp_head() cleaner"
 
-#: wp-head-cleaner.php:228
+#: wp-head-cleaner.php:236
 msgid "Check the tags you wish to remove."
 msgstr "Kryssa i de taggar som du vill ta bort."
