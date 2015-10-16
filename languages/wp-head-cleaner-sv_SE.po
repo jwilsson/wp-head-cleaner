@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-09-07 13:14+0200\n"
-"PO-Revision-Date: 2015-09-07 13:20+0200\n"
+"POT-Creation-Date: 2015-10-16 21:45+0200\n"
+"PO-Revision-Date: 2015-10-16 21:46+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.5\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
@@ -113,14 +113,22 @@ msgstr "Stilmallar för Emoji-stöd"
 msgid "Don't print styles for emoji support."
 msgstr "Skriv inte ut länkar till stilmallar för emoji-stöd."
 
-#: wp-head-cleaner.php:165
+#: wp-head-cleaner.php:131
+msgid "REST API"
+msgstr "REST API"
+
+#: wp-head-cleaner.php:132
+msgid "Don't print REST API endpoint tags."
+msgstr "Skriv inte ut REST API länkar."
+
+#: wp-head-cleaner.php:173
 msgid "Options for wp_head() cleaner"
 msgstr "Inställningar för wp_head() cleaner"
 
-#: wp-head-cleaner.php:166
+#: wp-head-cleaner.php:174
 msgid "wp_head() cleaner"
 msgstr "wp_head() cleaner"
 
-#: wp-head-cleaner.php:223
+#: wp-head-cleaner.php:228
 msgid "Check the tags you wish to remove."
 msgstr "Kryssa i de taggar som du vill ta bort."

@@ -127,6 +127,14 @@ class WP_Head_Cleaner {
                 'priority' => 10,
                 'args' => 1,
             ),
+            array(
+                'title' => __( 'REST API', 'wp-head-cleaner' ),
+                'description' => __( 'Don\'t print REST API endpoint tags.', 'wp-head-cleaner' ),
+                'action' => 'rest_output_link_wp_head',
+                'hook' => 'wp_head',
+                'priority' => 10,
+                'args' => 0,
+            ),
         );
     }
 
