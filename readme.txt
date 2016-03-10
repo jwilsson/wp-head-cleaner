@@ -31,9 +31,9 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 
 == Changelog ==
 **1.1.0**
-Added option for REST API.
-Added option for oEmbed.
-Tested with WordPress 4.4.
+* Added option for REST API.
+* Added option for oEmbed.
+* Tested with WordPress 4.4.
 
 **1.0.0**
-Initial release.
+* Initial release.
