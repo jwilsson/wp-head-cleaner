@@ -247,11 +247,12 @@ class WP_Head_Cleaner {
     }
 
     public function render_field( $args ) {
-        printf( '<input type="checkbox" name="%s[]" id="%s" value="%s" %s> <i>%s</i>',
+        printf( '<input type="checkbox" name="%s[]" id="%s" value="%s" %s> <label for="%s"><i>%s</i></label>',
             esc_attr( $args['option_name'] ),
             esc_attr( $args['label_for'] ),
             esc_attr( $args['name'] ),
             checked( (bool) $args['value'], true, false ),
+            esc_attr( $args['label_for'] ),
             esc_html( $args['description'] )
         );
     }
