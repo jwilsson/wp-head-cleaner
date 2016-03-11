@@ -2,7 +2,7 @@
 Contributors: jwilsson
 Tags: wp_head, header, meta, clean, remove, generator
 Requires at least: 3.1
-Tested up to: 4.4
+Tested up to: 4.5
 Stable tag: 1.1.0
 License: GPL2
 
