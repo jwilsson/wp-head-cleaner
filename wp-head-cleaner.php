@@ -27,6 +27,7 @@ class WP_Head_Cleaner {
         add_action( 'admin_menu', array( $this, 'admin_menu' ) );
         add_action( 'init', array( $this, 'init' ) );
         add_action( 'plugins_loaded', array( $this, 'load_textdomain' ) );
+        add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), array( $this, 'plugin_action_links' ) );
     }
 
     protected function setup_hooks() {
@@ -205,6 +206,15 @@ class WP_Head_Cleaner {
         load_plugin_textdomain( 'wp-head-cleaner', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
         $this->setup_hooks();
+    }
+
+    public function plugin_action_links( $links ) {
+        $settings_link = esc_url( get_admin_url(null, 'options-general.php?page=' . self::OPTION_SLUG ) );
+
+        $links[] = sprintf('<a href="%s">%s</a>', $settings_link, __( 'Settings', 'wp-head-cleaner' ) );
+        $links[] = '<a href="https://github.com/jwilsson/wp-head-cleaner" target="_blank">GitHub</a>';
+
+        return $links;
     }
 
     public function render_page() {

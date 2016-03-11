@@ -1,142 +1,146 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-10-16 21:47+0200\n"
-"PO-Revision-Date: 2015-10-16 21:47+0200\n"
+"POT-Creation-Date: 2016-03-11 20:40+0100\n"
+"PO-Revision-Date: 2016-03-11 20:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
 "esc_html__;esc_html_e;esc_html_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: wp-head-cleaner.php:35
+#: wp-head-cleaner.php:36
 msgid "Really Simple Discovery"
 msgstr "Really Simple Discovery"
 
-#: wp-head-cleaner.php:36
+#: wp-head-cleaner.php:37
 msgid "Don't print tags for the XML-RPC discover mechanism."
 msgstr "Skriv inte ut taggar som används av XML-RPC."
 
-#: wp-head-cleaner.php:43
+#: wp-head-cleaner.php:44
 msgid "Windows Live Writer"
 msgstr "Windows Live Writer"
 
-#: wp-head-cleaner.php:44
+#: wp-head-cleaner.php:45
 msgid "Don't print tags used by Windows Live Writer."
 msgstr "Skriv inte ut taggar som används av Windows Live Writer."
 
-#: wp-head-cleaner.php:51
+#: wp-head-cleaner.php:52
 msgid "WordPress generator meta tag"
 msgstr "WordPress generator meta tagg"
 
-#: wp-head-cleaner.php:52
+#: wp-head-cleaner.php:53
 msgid "Don't print the WordPress version."
 msgstr "Skriv inte ut WordPress-versionen."
 
-#: wp-head-cleaner.php:59
+#: wp-head-cleaner.php:60
 msgid "Post Relational Links - Start"
 msgstr "Relationslänkar - Första inlägget"
 
-#: wp-head-cleaner.php:60
+#: wp-head-cleaner.php:61
 msgid "Don't print relational link for the first post."
 msgstr "Skriv inte ut relationslänk till det första inlägget."
 
-#: wp-head-cleaner.php:67
+#: wp-head-cleaner.php:68
 msgid "Post Relational Links - Index"
 msgstr "Relationslänkar - Startsida"
 
-#: wp-head-cleaner.php:68
+#: wp-head-cleaner.php:69
 msgid "Don't print relational link for the site index."
 msgstr "Skriv inte ut relationslänk till startsidan."
 
-#: wp-head-cleaner.php:75
+#: wp-head-cleaner.php:76
 msgid "Post Relational Links - Previous and Next"
 msgstr "Relationslänkar för inlägg - Föregående och nästa"
 
-#: wp-head-cleaner.php:76
+#: wp-head-cleaner.php:77
 msgid ""
 "Don't print relational links for the posts adjacent to the current post."
 msgstr "Skriv inte ut relationslänkar till föregående och nästa inlägg."
 
-#: wp-head-cleaner.php:83
+#: wp-head-cleaner.php:84
 msgid "Post shortlinks"
 msgstr "Korta länkar till inlägg"
 
-#: wp-head-cleaner.php:84
+#: wp-head-cleaner.php:85
 msgid "Don't print post short links."
 msgstr "Skriv inte ut korta länkar till inlägg."
 
-#: wp-head-cleaner.php:91
+#: wp-head-cleaner.php:92
 msgid "Canonical links"
 msgstr "Föredragna länkar"
 
-#: wp-head-cleaner.php:92
+#: wp-head-cleaner.php:93
 msgid "Don't print post canonical link."
 msgstr "Skriv inte ut den föredragna länken till ett inlägg."
 
-#: wp-head-cleaner.php:99
+#: wp-head-cleaner.php:100
 msgid "Post and Comment Feed"
 msgstr "Inläggs- och kommentarsflöden"
 
-#: wp-head-cleaner.php:100
+#: wp-head-cleaner.php:101
 msgid "Don't print links for the posts and comments feeds."
 msgstr "Skriv inte ut länkar till inläggs- och kommentarsflöden."
 
-#: wp-head-cleaner.php:107
+#: wp-head-cleaner.php:108
 msgid "Other feeds, for example category feeds"
 msgstr "Övriga flöden, t.ex. kategorier"
 
-#: wp-head-cleaner.php:108
+#: wp-head-cleaner.php:109
 msgid "Don't print links to other feeds, for example categories."
 msgstr "Skriv inte ut länkar till andra flöden, t.ex. kategorier."
 
-#: wp-head-cleaner.php:115
+#: wp-head-cleaner.php:116
 msgid "Emoji scripts"
 msgstr "Script för emoji-stöd"
 
-#: wp-head-cleaner.php:116
+#: wp-head-cleaner.php:117
 msgid "Don't print scripts for emoji support."
 msgstr "Skriv inte ut script-taggar för emoji-stöd."
 
-#: wp-head-cleaner.php:123
+#: wp-head-cleaner.php:124
 msgid "Emoji styles"
 msgstr "Stilmallar för Emoji-stöd"
 
-#: wp-head-cleaner.php:124
+#: wp-head-cleaner.php:125
 msgid "Don't print styles for emoji support."
 msgstr "Skriv inte ut länkar till stilmallar för emoji-stöd."
 
-#: wp-head-cleaner.php:131
+#: wp-head-cleaner.php:132
 msgid "REST API"
 msgstr "REST API"
 
-#: wp-head-cleaner.php:132
+#: wp-head-cleaner.php:133
 msgid "Don't print REST API endpoint tags."
 msgstr "Skriv inte ut REST API länkar."
 
-#: wp-head-cleaner.php:139
+#: wp-head-cleaner.php:140
 msgid "oEmbed"
 msgstr ""
 
-#: wp-head-cleaner.php:140
+#: wp-head-cleaner.php:141
 msgid "Don't print tags for the oEmbed discover mechanism."
 msgstr "Skriv inte ut taggar som används av oEmbed."
 
-#: wp-head-cleaner.php:181
+#: wp-head-cleaner.php:182
 msgid "Options for wp_head() cleaner"
 msgstr "Inställningar för wp_head() cleaner"
 
-#: wp-head-cleaner.php:182
+#: wp-head-cleaner.php:183
 msgid "wp_head() cleaner"
 msgstr "wp_head() cleaner"
 
-#: wp-head-cleaner.php:236
+#: wp-head-cleaner.php:214
+msgid "Settings"
+msgstr "Inställningar"
+
+#: wp-head-cleaner.php:246
 msgid "Check the tags you wish to remove."
 msgstr "Kryssa i de taggar som du vill ta bort."
