@@ -30,15 +30,15 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 1. Admin interface
 
 == Changelog ==
-**1.2.0**
+= 1.2.0 =
 * Added action links to plugin screen.
 * Added labels to option descriptions.
 * Tested with WordPress 4.5.
 
-**1.1.0**
+= 1.1.0 =
 * Added option for REST API.
 * Added option for oEmbed.
 * Tested with WordPress 4.4.
 
-**1.0.0**
+= 1.0.0 =
 * Initial release.
