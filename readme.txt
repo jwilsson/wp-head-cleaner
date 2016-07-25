@@ -30,6 +30,10 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 1. Admin interface
 
 == Changelog ==
+= 1.3.0 =
+* Added option for resource hints.
+* Tested with WordPress 4.6.
+
 = 1.2.0 =
 * Added action links to plugin screen.
 * Added labels to option descriptions.
