@@ -144,6 +144,14 @@ class WP_Head_Cleaner {
                 'priority' => 10,
                 'args' => 1,
             ),
+            array(
+                'title' => __( 'Resource hints', 'wp-head-cleaner' ),
+                'description' => __( 'Don\'t print tags for browser pre-fetching, pre-rendering, and pre-connecting hints.', 'wp-head-cleaner' ),
+                'action' => 'wp_resource_hints',
+                'hook' => 'wp_head',
+                'priority' => 2,
+                'args' => 1,
+            ),
         );
     }
 
