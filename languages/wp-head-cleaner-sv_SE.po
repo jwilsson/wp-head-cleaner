@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-11 20:40+0100\n"
-"PO-Revision-Date: 2016-03-11 20:40+0100\n"
+"POT-Creation-Date: 2016-07-28 21:19+0200\n"
+"PO-Revision-Date: 2016-07-28 21:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
@@ -123,24 +123,35 @@ msgstr "Skriv inte ut REST API länkar."
 
 #: wp-head-cleaner.php:140
 msgid "oEmbed"
-msgstr ""
+msgstr "oEmbed"
 
 #: wp-head-cleaner.php:141
 msgid "Don't print tags for the oEmbed discover mechanism."
 msgstr "Skriv inte ut taggar som används av oEmbed."
 
-#: wp-head-cleaner.php:182
+#: wp-head-cleaner.php:148
+msgid "Resource hints"
+msgstr "Förhandsladda resurser"
+
+#: wp-head-cleaner.php:149
+msgid ""
+"Don't print tags for browser pre-fetching, pre-rendering, and pre-connecting "
+"hints."
+msgstr ""
+"Skriv inte ut taggar för att föreslå resurser som kan laddas  i förväg."
+
+#: wp-head-cleaner.php:190
 msgid "Options for wp_head() cleaner"
 msgstr "Inställningar för wp_head() cleaner"
 
-#: wp-head-cleaner.php:183
+#: wp-head-cleaner.php:191
 msgid "wp_head() cleaner"
 msgstr "wp_head() cleaner"
 
-#: wp-head-cleaner.php:214
+#: wp-head-cleaner.php:222
 msgid "Settings"
 msgstr "Inställningar"
 
-#: wp-head-cleaner.php:246
+#: wp-head-cleaner.php:254
 msgid "Check the tags you wish to remove."
 msgstr "Kryssa i de taggar som du vill ta bort."
