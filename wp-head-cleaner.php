@@ -145,6 +145,14 @@ class WP_Head_Cleaner {
                 'args' => 1,
             ),
             array(
+                'title' => __( 'oEmbed scripts', 'wp-head-cleaner' ),
+                'description' => __( 'Don\'t print scripts for the oEmbed discover mechanism.', 'wp-head-cleaner' ),
+                'action' => 'wp_oembed_add_host_js',
+                'hook' => 'wp_head',
+                'priority' => 10,
+                'args' => 1,
+            ),
+            array(
                 'title' => __( 'Resource hints', 'wp-head-cleaner' ),
                 'description' => __( 'Don\'t print tags for browser pre-fetching, pre-rendering, and pre-connecting hints.', 'wp-head-cleaner' ),
                 'action' => 'wp_resource_hints',
