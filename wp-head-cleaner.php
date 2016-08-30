@@ -137,7 +137,7 @@ class WP_Head_Cleaner {
                 'args' => 0,
             ),
             array(
-                'title' => __( 'oEmbed', 'wp-head-cleaner' ),
+                'title' => __( 'oEmbed tags', 'wp-head-cleaner' ),
                 'description' => __( 'Don\'t print tags for the oEmbed discover mechanism.', 'wp-head-cleaner' ),
                 'action' => 'wp_oembed_add_discovery_links',
                 'hook' => 'wp_head',

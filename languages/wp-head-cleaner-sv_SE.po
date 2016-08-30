@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-07-28 21:19+0200\n"
-"PO-Revision-Date: 2016-07-28 21:20+0200\n"
+"POT-Creation-Date: 2016-08-30 20:41+0200\n"
+"PO-Revision-Date: 2016-08-30 20:44+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -122,36 +122,47 @@ msgid "Don't print REST API endpoint tags."
 msgstr "Skriv inte ut REST API länkar."
 
 #: wp-head-cleaner.php:140
-msgid "oEmbed"
-msgstr "oEmbed"
+msgid "oEmbed tags"
+msgstr "oEmbed-taggar"
 
 #: wp-head-cleaner.php:141
 msgid "Don't print tags for the oEmbed discover mechanism."
 msgstr "Skriv inte ut taggar som används av oEmbed."
 
 #: wp-head-cleaner.php:148
+msgid "oEmbed scripts"
+msgstr "oEmbed-scripts"
+
+#: wp-head-cleaner.php:149
+msgid "Don't print scripts for the oEmbed discover mechanism."
+msgstr "Skriv inte ut script-taggar för ombed."
+
+#: wp-head-cleaner.php:156
 msgid "Resource hints"
 msgstr "Förhandsladda resurser"
 
-#: wp-head-cleaner.php:149
+#: wp-head-cleaner.php:157
 msgid ""
 "Don't print tags for browser pre-fetching, pre-rendering, and pre-connecting "
 "hints."
 msgstr ""
 "Skriv inte ut taggar för att föreslå resurser som kan laddas  i förväg."
 
-#: wp-head-cleaner.php:190
+#: wp-head-cleaner.php:198
 msgid "Options for wp_head() cleaner"
 msgstr "Inställningar för wp_head() cleaner"
 
-#: wp-head-cleaner.php:191
+#: wp-head-cleaner.php:199
 msgid "wp_head() cleaner"
 msgstr "wp_head() cleaner"
 
-#: wp-head-cleaner.php:222
+#: wp-head-cleaner.php:230
 msgid "Settings"
 msgstr "Inställningar"
 
-#: wp-head-cleaner.php:254
+#: wp-head-cleaner.php:262
 msgid "Check the tags you wish to remove."
 msgstr "Kryssa i de taggar som du vill ta bort."
+
+#~ msgid "oEmbed"
+#~ msgstr "oEmbed"
