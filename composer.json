@@ -1,0 +1,15 @@
+{
+    "name": "jwilsson/wp-head-cleaner",
+    "description": "WordPress plugin to remove unused tags from wp_head() output.",
+    "type": "wordpress-plugin",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Jonathan Wilsson",
+            "email": "jonathan.wilsson@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2"
+    }
+}
