@@ -26,11 +26,12 @@ class WP_Head_Cleaner {
         add_action( 'admin_init', array( $this, 'admin_init' ) );
         add_action( 'admin_menu', array( $this, 'admin_menu' ) );
         add_action( 'init', array( $this, 'init' ) );
-        add_action( 'plugins_loaded', array( $this, 'load_textdomain' ) );
+        add_action( 'plugins_loaded', array( $this, 'setup_hooks' ) );
+
         add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), array( $this, 'plugin_action_links' ) );
     }
 
-    protected function setup_hooks() {
+    public function setup_hooks() {
         $this->hooks = array(
             array(
                 'title' => __( 'Really Simple Discovery', 'wp-head-cleaner' ),
@@ -204,6 +205,8 @@ class WP_Head_Cleaner {
     }
 
     public function init() {
+        load_plugin_textdomain( 'wp-head-cleaner', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+
         $this->options = (array) get_option( self::OPTION_NAME );
 
         foreach ( $this->hooks as $hook ) {
@@ -216,12 +219,6 @@ class WP_Head_Cleaner {
 
             remove_action( $hook['hook'], $action, $hook['priority'], $hook['args'] );
         }
-    }
-
-    public function load_textdomain() {
-        load_plugin_textdomain( 'wp-head-cleaner', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-
-        $this->setup_hooks();
     }
 
     public function plugin_action_links( $links ) {
