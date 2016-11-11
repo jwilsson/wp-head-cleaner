@@ -26,7 +26,6 @@ class WP_Head_Cleaner {
         add_action( 'admin_init', array( $this, 'admin_init' ) );
         add_action( 'admin_menu', array( $this, 'admin_menu' ) );
         add_action( 'init', array( $this, 'init' ) );
-        add_action( 'plugins_loaded', array( $this, 'setup_hooks' ) );
 
         add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'plugin_action_links' ) );
     }
@@ -208,6 +207,7 @@ class WP_Head_Cleaner {
         load_plugin_textdomain( 'wp-head-cleaner', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
         $this->options = (array) get_option( self::OPTION_NAME );
+        $this->setup_hooks();
 
         foreach ( $this->hooks as $hook ) {
             $action = $hook['action'];
