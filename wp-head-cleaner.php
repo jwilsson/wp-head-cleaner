@@ -28,7 +28,7 @@ class WP_Head_Cleaner {
         add_action( 'init', array( $this, 'init' ) );
         add_action( 'plugins_loaded', array( $this, 'setup_hooks' ) );
 
-        add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), array( $this, 'plugin_action_links' ) );
+        add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'plugin_action_links' ) );
     }
 
     public function setup_hooks() {
@@ -222,9 +222,9 @@ class WP_Head_Cleaner {
     }
 
     public function plugin_action_links( $links ) {
-        $settings_link = esc_url( get_admin_url(null, 'options-general.php?page=' . self::OPTION_SLUG ) );
+        $settings_link = esc_url( get_admin_url( null, 'options-general.php?page=' . self::OPTION_SLUG ) );
 
-        $links[] = sprintf('<a href="%s">%s</a>', $settings_link, __( 'Settings', 'wp-head-cleaner' ) );
+        $links[] = sprintf( '<a href="%s">%s</a>', $settings_link, __( 'Settings', 'wp-head-cleaner' ) );
         $links[] = '<a href="https://github.com/jwilsson/wp-head-cleaner" target="_blank">GitHub</a>';
 
         return $links;
@@ -234,7 +234,7 @@ class WP_Head_Cleaner {
         global $title;
 
         if ( ! current_user_can( 'manage_options' ) ) {
-            wp_die('Cheatin\' Uh?');
+            wp_die( 'Cheatin\' Uh?' );
         }
 ?>
     <div class="wrap">
@@ -264,7 +264,7 @@ class WP_Head_Cleaner {
             esc_attr( $args['option_name'] ),
             esc_attr( $args['label_for'] ),
             esc_attr( $args['name'] ),
-            checked( (bool) $args['value'], true, false ),
+            checked( (boolean) $args['value'], true, false ),
             esc_attr( $args['label_for'] ),
             esc_html( $args['description'] )
         );
