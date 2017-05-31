@@ -30,6 +30,9 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 1. Admin interface
 
 == Changelog ==
+= 1.5.1 =
+* Tested with WordPress 4.8.
+
 = 1.5.0 =
 * Added Composer support.
 * Moved localization loading to `init` hook.
