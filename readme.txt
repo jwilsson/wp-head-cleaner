@@ -2,8 +2,8 @@
 Contributors: jwilsson
 Tags: wp_head, header, meta, clean, remove, generator
 Requires at least: 3.1
-Tested up to: 4.8
-Stable tag: 1.5.1
+Tested up to: 4.9
+Stable tag: 1.5.2
 License: GPL2
 
 Remove unused tags from wp_head() output.
@@ -30,6 +30,9 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 1. Admin interface
 
 == Changelog ==
+= 1.5.2 =
+* Tested with WordPress 4.9.
+
 = 1.5.1 =
 * Tested with WordPress 4.8.
 
