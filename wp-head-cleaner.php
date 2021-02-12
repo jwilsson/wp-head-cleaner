@@ -160,6 +160,14 @@ class WP_Head_Cleaner {
                 'priority' => 2,
                 'args' => 1,
             ),
+            array(
+                'title' => __( 'Robots image preview', 'wp-head-cleaner' ),
+                'description' => __( 'Don\'t print tags for web robots image preview directive.', 'wp-head-cleaner' ),
+                'action' => 'wp_robots_max_image_preview_large',
+                'hook' => 'wp_robots',
+                'priority' => 10,
+                'args' => 1,
+            ),
         );
     }
 
