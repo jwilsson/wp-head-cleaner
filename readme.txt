@@ -2,8 +2,8 @@
 Contributors: jwilsson
 Tags: wp_head, header, meta, clean, remove, generator
 Requires at least: 3.1
-Tested up to: 5.6
-Stable tag: 1.5.9
+Tested up to: 5.7
+Stable tag: 1.6.0
 License: GPL2
 
 Remove unused tags from wp_head() output.
@@ -30,6 +30,10 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 1. Admin interface
 
 == Changelog ==
+= 1.6.0 =
+* Added option to remove robots image preview directive.
+* Tested with WordPress 5.6.
+
 = 1.5.9 =
 * Tested with WordPress 5.6.
 
