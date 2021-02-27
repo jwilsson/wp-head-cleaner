@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-11-11 15:46+0100\n"
-"PO-Revision-Date: 2020-06-11 13:29+0200\n"
+"POT-Creation-Date: 2021-02-16 20:54+0100\n"
+"PO-Revision-Date: 2021-02-16 20:57+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
@@ -147,19 +147,28 @@ msgid ""
 "hints."
 msgstr "Skriv inte ut taggar för att föreslå resurser som kan laddas i förväg."
 
-#: wp-head-cleaner.php:198
+#: wp-head-cleaner.php:164
+msgid "Robots image preview"
+msgstr "Bildförhandsvisning för webbrobotar"
+
+#: wp-head-cleaner.php:165
+msgid "Don't print tags for web robots image preview directive."
+msgstr ""
+"Skriv inte ut taggar som används av webbrobotar för bildförhandsvisningar."
+
+#: wp-head-cleaner.php:206
 msgid "Options for wp_head() cleaner"
 msgstr "Inställningar för wp_head() cleaner"
 
-#: wp-head-cleaner.php:199
+#: wp-head-cleaner.php:207
 msgid "wp_head() cleaner"
 msgstr "wp_head() cleaner"
 
-#: wp-head-cleaner.php:227
+#: wp-head-cleaner.php:235
 msgid "Settings"
 msgstr "Inställningar"
 
-#: wp-head-cleaner.php:259
+#: wp-head-cleaner.php:267
 msgid "Check the tags you wish to remove."
 msgstr "Kryssa i de taggar som du vill ta bort."
 
