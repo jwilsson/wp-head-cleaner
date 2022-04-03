@@ -185,19 +185,23 @@ class WP_Head_Cleaner {
         foreach ( $this->hooks as $hook ) {
             $action = $hook['action'];
             $index = array_search( $action, $this->options );
-            $value = '';
-
-            if ( false !== $index ) {
-                $value = $this->options[ $index ];
-            }
-
-            add_settings_field( $action, $hook['title'], array( $this, 'render_field' ), self::OPTION_SLUG, 'default', array(
+            $value = false !== $index ? $this->options[ $index ] : '';
+            $args = array(
                 'name' => $action,
-                'value' => $value,
+                'value' => (boolean) $value,
                 'label_for' => $action,
                 'description' => $hook['description'],
                 'option_name' => self::OPTION_NAME,
-            ) );
+            );
+
+            add_settings_field(
+                $action,
+                $hook['title'],
+                array( $this, 'render_field' ),
+                self::OPTION_SLUG,
+                'default',
+                $args,
+            );
         }
     }
 
@@ -207,7 +211,7 @@ class WP_Head_Cleaner {
             __( 'wp_head() cleaner', 'wp-head-cleaner' ),
             'manage_options',
             self::OPTION_SLUG,
-            array( $this, 'render_page' )
+            array( $this, 'render_page' ),
         );
     }
 
@@ -246,19 +250,15 @@ class WP_Head_Cleaner {
         }
 ?>
     <div class="wrap">
-
         <h1><?php echo esc_html( $title ); ?></h1>
 
         <form action="options.php" method="post">
-
             <?php
             settings_fields( self::OPTION_GROUP );
             do_settings_sections( self::OPTION_SLUG );
             submit_button();
             ?>
-
         </form>
-
     </div>
 <?php
     }
@@ -268,13 +268,14 @@ class WP_Head_Cleaner {
     }
 
     public function render_field( $args ) {
-        printf( '<input type="checkbox" name="%s[]" id="%s" value="%s" %s> <label for="%s"><i>%s</i></label>',
+        printf(
+            '<input type="checkbox" name="%s[]" id="%s" value="%s" %s> <label for="%s"><i>%s</i></label>',
             esc_attr( $args['option_name'] ),
             esc_attr( $args['label_for'] ),
             esc_attr( $args['name'] ),
-            checked( (boolean) $args['value'], true, false ),
+            checked( $args['value'], true, false ),
             esc_attr( $args['label_for'] ),
-            esc_html( $args['description'] )
+            esc_html( $args['description'] ),
         );
     }
 }
