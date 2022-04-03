@@ -1,7 +1,7 @@
 === wp_head() cleaner ===
 Contributors: jwilsson
 Tags: wp_head, header, meta, clean, remove, generator
-Requires at least: 3.1
+Requires at least: 5.0
 Tested up to: 5.9
 Stable tag: 1.6.3
 License: GPL2
