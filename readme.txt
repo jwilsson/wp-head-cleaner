@@ -3,7 +3,7 @@ Contributors: jwilsson
 Tags: wp_head, header, meta, clean, remove, generator
 Requires PHP: 7.3
 Requires at least: 5.0
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: 1.6.3
 License: GPL2
 
