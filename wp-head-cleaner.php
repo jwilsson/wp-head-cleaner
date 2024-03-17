@@ -3,7 +3,7 @@
  * Plugin Name: wp_head() cleaner
  * Plugin URI: https://wordpress.org/plugins/wp-head-cleaner/
  * Description: Remove unused tags from wp_head() output.
- * Version: 2.0.4
+ * Version: 2.0.5
  * Author: Jonathan Wilsson
  * Author URI: http://jwilsson.com/
  * Text Domain: wp-head-cleaner
