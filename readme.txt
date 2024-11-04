@@ -3,8 +3,8 @@ Contributors: jwilsson
 Tags: wp_head, head, meta, clean, remove
 Requires PHP: 7.3
 Requires at least: 5.0
-Tested up to: 6.6
-Stable tag: 2.0.6
+Tested up to: 6.7
+Stable tag: 2.0.7
 License: GPL2
 
 Remove unused tags from wp_head() output.
@@ -31,6 +31,9 @@ You decide on a tag-by-tag basis which tags to remove and which to keep. Nothing
 1. Admin interface
 
 == Changelog ==
+= 2.0.7 =
+* Tested with WordPress 6.7.
+
 = 2.0.6 =
 * Tested with WordPress 6.6.
 
