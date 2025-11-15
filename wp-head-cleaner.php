@@ -188,7 +188,7 @@ class WP_Head_Cleaner {
             $value = false !== $index ? $this->options[ $index ] : '';
             $args = array(
                 'name' => $action,
-                'value' => (boolean) $value,
+                'value' => (bool) $value,
                 'label_for' => $action,
                 'description' => $hook['description'],
                 'option_name' => self::OPTION_NAME,
