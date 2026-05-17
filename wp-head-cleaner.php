@@ -180,8 +180,17 @@ class WP_Head_Cleaner {
             return;
         }
 
-        register_setting( self::OPTION_GROUP, self::OPTION_NAME );
         add_settings_section( 'default', '', array( $this, 'render_section' ), self::OPTION_SLUG );
+        register_setting( self::OPTION_GROUP, self::OPTION_NAME, array(
+            'type' => 'array',
+            'sanitize_callback' => function ( $input ) {
+                if ( ! is_array( $input ) ) {
+                    return array();
+                }
+
+                return array_map( 'sanitize_text_field', $input );
+            },
+        ) );
 
         foreach ( $this->hooks as $hook ) {
             $action = $hook['action'];
