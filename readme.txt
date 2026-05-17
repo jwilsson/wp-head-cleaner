@@ -1,8 +1,8 @@
 === wp_head() cleaner ===
 Contributors: jwilsson
 Tags: wp_head, head, meta, clean, remove
-Requires PHP: 7.3
-Requires at least: 5.0
+Requires PHP: 7.4
+Requires at least: 6.0
 Tested up to: 6.9
 Stable tag: 2.0.9
 License: GPL2
