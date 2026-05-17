@@ -8,7 +8,6 @@
  * Author: Jonathan Wilsson
  * Author URI: http://jwilsson.com/
  * Text Domain: wp-head-cleaner
- * Domain Path: /languages
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -226,8 +225,6 @@ class WP_Head_Cleaner {
     }
 
     public function init() {
-        load_plugin_textdomain( 'wp-head-cleaner', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-
         $this->options = (array) get_option( self::OPTION_NAME );
         $this->setup_hooks();
 
